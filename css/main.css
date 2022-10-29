@@ -1,0 +1,77 @@
+.container-all {
+    height: 100%;
+    display: grid;
+    place-items: center center;
+    background-image: '/img/cool-background.png';
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-form {
+    -webkit-box-shadow: 3px 4px 5px 1px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 3px 4px 5px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 4px 5px 1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+    align-items: center;
+    background-color: white;
+    padding: 7rem 3rem 4rem 3rem;
+    border-radius: 4px;
+    background-image: '/img/wave.svg';
+    background-repeat: no-repeat;
+    background-size: 250px;
+    
+}
+
+.input-login {
+    max-width: 20rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border: 2.2px solid #FC786E;
+    border-radius: 0.5rem;
+    font-weight: 300;
+}
+label{
+    align-self: start;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+   
+}
+
+.label-password{
+    margin-top: 3rem;
+}
+
+.container-input{
+    position: relative;
+}
+.img-input{
+    position: absolute;
+    width: 20px;
+    top:5px;
+    right: 5px;
+}
+
+.button{
+    padding: 1rem 5rem 1rem 5rem;
+    border: none;
+    font-weight: bold;
+    background-color: #062265;
+    color:white;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transition: 0.2s all;
+    margin: 0 0.5rem;
+    margin-top: 2rem;
+    border-radius: 4px;
+}
+
+.button:hover{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+}
+
+.container-button{
+    display: flex;
+    flex-direction: column;
+}
